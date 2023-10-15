@@ -39,3 +39,9 @@ Are there any noticeable patterns or trends in employee growth or attrition?
 Which job roles have the highest number of employees due for promotion?
 Which job roles have the highest number of employees at risk of retrenchment?
 Are there any job roles that overlap, i.e., employees due for promotion and at risk of retrenchment?
+![HR Analytics_Home](https://github.com/SMalhotra563/HR-Analytics/assets/147312244/33eb29fc-8bb0-4848-adc7-cf19d0c5b32f)
+
+![HR Analytics_Actions](https://github.com/SMalhotra563/HR-Analytics/assets/147312244/a6aa079d-65a4-42fd-9eae-bfec2c47b638)
+
+
+![HR Analytics_Details](https://github.com/SMalhotra563/HR-Analytics/assets/147312244/7b29ee63-d75a-4940-a399-260a3ec3c6bb)
