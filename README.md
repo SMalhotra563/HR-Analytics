@@ -53,30 +53,38 @@ Are there any job roles that overlap, i.e., employees due for promotion and at r
 
 ### For Calculating Female: 
  **Female** = Calculate([Tota Emp],'HR Analytics Data'[Gender]="Female")
+
  **% Female** = DIVIDE([Female],[Tota Emp],0)
 
 ### For Calculating Male:
  **Male** = CALCULATE([Tota Emp],'HR Analytics Data'[Gender]="male")
+ 
  **% male** = DIVIDE([Male],[Tota Emp],0)
 
 ### For Calculating the Status of the promotion among Total Employees:
 
  **Due for promotion** = CALCULATE ([Tota Emp],'HR Analytics Data'[Promotion Status]="Due for promotion")
+
  **% Due for promotion** = DIVIDE ([Due for promotion],[Tota Emp],0)
 
  **Not Due for promotion** = CALCULATE ([Tota Emp],'HR Analytics Data'[Promotion Status]="Not Due")
+
  **% Not Due for promotion** = DIVIDE([Not Due for promotion],[Tota Emp],0)
 
 ### For Calculating the Status of the Retrenchment among Total Employees:
  **Will be Retreanched** = IF(ISBLANK(Calculate([Tota Emp],'HR Analytics Data'[Retreachment status]="Will be Retreanched")),0,Calculate([Tota Emp],'HR Analytics Data'[Retreachment status]="Will be Retreanched"))
+
   **% Will be Retrenched** = DIVIDE([Will be Retrenched],[Tota Emp],0)
 
  **On Service** = IF(ISBLANK(Calculate([Tota Emp],'HR Analytics Data'[Retreachment status]="On Service")),0,Calculate([Tota Emp],'HR Analytics Data'[Retreachment status]="On Service"))
+ 
   **% On Service** = DIVIDE([On Service],[Tota Emp],0)
 
 ### For Calculating the Rating among Total Employees:
  **High Rated** = IF(ISBLANK(Calculate([Tota Emp],'HR Analytics Data'[Performance]="High Rating")),0,Calculate([Tota Emp],'HR Analytics Data'[Performance]="High Rating"))
+ 
   **% High Rated** = DIVIDE([High Rated],[Tota Emp],0)
 
  **Low Rated** = IF(ISBLANK(Calculate([Tota Emp],'HR Analytics Data'[Performance]="Low Rating")),0,Calculate([Tota Emp],'HR Analytics Data'[Performance]="Low Rating"))
+ 
   **Low Rated**= DIVIDE([Low Rated],[Tota Emp],0)
