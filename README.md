@@ -71,14 +71,14 @@ Are there any job roles that overlap, i.e., employees due for promotion and at r
 
 ### For Calculating the Status of the Retrenchment among Total Employees:
  **Will be Retreanched** = IF(ISBLANK(Calculate([Tota Emp],'HR Analytics Data'[Retreachment status]="Will be Retreanched")),0,Calculate([Tota Emp],'HR Analytics Data'[Retreachment status]="Will be Retreanched"))
- **% Will be Retrenched** = DIVIDE([Will be Retrenched],[Tota Emp],0)
+  **% Will be Retrenched** = DIVIDE([Will be Retrenched],[Tota Emp],0)
 
  **On Service** = IF(ISBLANK(Calculate([Tota Emp],'HR Analytics Data'[Retreachment status]="On Service")),0,Calculate([Tota Emp],'HR Analytics Data'[Retreachment status]="On Service"))
- **% On Service** = DIVIDE([On Service],[Tota Emp],0)
+  **% On Service** = DIVIDE([On Service],[Tota Emp],0)
 
 ### For Calculating the Rating among Total Employees:
  **High Rated** = IF(ISBLANK(Calculate([Tota Emp],'HR Analytics Data'[Performance]="High Rating")),0,Calculate([Tota Emp],'HR Analytics Data'[Performance]="High Rating"))
- **% High Rated** = DIVIDE([High Rated],[Tota Emp],0)
+  **% High Rated** = DIVIDE([High Rated],[Tota Emp],0)
 
  **Low Rated** = IF(ISBLANK(Calculate([Tota Emp],'HR Analytics Data'[Performance]="Low Rating")),0,Calculate([Tota Emp],'HR Analytics Data'[Performance]="Low Rating"))
- **Low Rated**= DIVIDE([Low Rated],[Tota Emp],0)
+  **Low Rated**= DIVIDE([Low Rated],[Tota Emp],0)
